@@ -22,9 +22,12 @@
       module.exports = {
         theme: {
           extend: {
-            fontFamily: {},
+            colors: {
+              customGoldenrod: "rgba(230, 166, 35, 0.1)",
+            },
           },
         },
+        variants: {},
         plugins: [],
       };
     </script>
@@ -37,7 +40,7 @@
   <body class="font-manrope">
     <!-- Main Content -->
     <main class="max-w-screen-2xl mx-auto pt-7">
-      <header class="md:flex md:flex-row-reverse">
+      <header class="md:flex md:flex-row-reverse mx-3">
         <!-- Pic section -->
         <div class="relative">
           <!-- Image -->
@@ -134,6 +137,57 @@
             <h3 class="text-3xl font-extrabold text-center py-5">Milk Tea</h3>
             <p class="text-gray-500 text-center text-2xl">
               Creamer could be replaced by fresh milk
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Greatest tea section -->
+      <section class="mx-3">
+        <!-- section container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-10">
+          <!-- Image section -->
+          <div class="grid grid-cols-2 grid-rows-3 gap-4">
+            <!-- Content -->
+            <div
+              class="bg-gradient-to-r from-red-100 to-red-50 rounded-xl"
+            ></div>
+            <!-- img -->
+            <div class="bg-orange-50 row-span-2 rounded-xl py-3 lg:py-7">
+              <img class="m-auto" src="images/fresh-1.png" alt="" />
+            </div>
+            <!-- img -->
+            <div class="bg-[#5776391A] row-span-2 rounded-xl py-3 lg:py-7">
+              <img class="m-auto" src="images/fresh-1.png" alt="" />
+            </div>
+            <!-- em -->
+            <div
+              class="bg-gradient-to-r from-gray-100 to-gray-50 rounded-xl"
+            ></div>
+          </div>
+          <!-- Text section -->
+          <div class="py-4">
+            <h2 class="text-5xl font-extrabold w-2/3">
+              Great Tea, Freshly Presented
+            </h2>
+            <br />
+            <p class="text-lg text-gray-500 w-3/4">
+              The meaning of gong cha is chanese is to provide the best tea to
+              emperor from all possessions . It represents the highest quality
+              and self expectation. Establishing in 2006, Gong cha had been
+              deeply appreciated by its custoers because of good words of mouth
+              and unique customized service orginated from Taiwan.
+            </p>
+            <br />
+            <h3 class="text-2xl font-extrabold">Unique Taste</h3>
+            <p class="text-lg text-gray-500 pr-3">
+              A Unique and different style from other teapots gives a luxurious
+              and minimalist impression
+            </p>
+            <br />
+            <h3 class="text-2xl font-extrabold">Premium Quality</h3>
+            <p class="text-lg text-gray-500">
+              Premium Quality that makes tea more elegant and more durable when
+              you use it.
             </p>
           </div>
         </div>
